@@ -6,10 +6,10 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   const onClickMinus = () => {
-    setCounter(counter--);
+    setCounter(counter - 1);
   };
   const onClickPlus = () => {
-    setCounter(counter++);
+    setCounter(counter + 1);
   };
 
   return (
